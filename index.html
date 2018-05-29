@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>個人名片</title>
+</head>
+<body>
+<form action="http://yourIP/資料夾名稱/receive.php" method="POST" >
+<table width="289" border="1">
+  <tr>
+    <td width="279"><p align="center"> <b>學校：
+          <select name="school" size="1" id="school">
+            <option value="國立臺灣大學">國立臺灣大學</option>
+            <option value="國立政治大學">國立政治大學</option>
+            <option value="國立清華大學">國立清華大學</option>
+            <option value="國立交通大學">國立交通大學</option>
+            <option value="大同大學">大同大學</option>
+          </select>
+    </b><br />
+    <b>學院：</b>
+    <input type="text" name="college" maxlength="20" size="20" />
+    </b></p>
+      <table width="278" border="1">
+        <tr>
+          <td width="268"><p align="center"><b>系所：</b>
+            <input type="text" name="institute" maxlength="20" size="20" />
+          </b></p></td>
+        </tr>
+        <tr>
+          <td><p align="center"><b>姓名：</b>
+            <input type="text" name="name" maxlength="20" size="20" />
+          </b></p></td>
+        </tr>
+        <tr>
+          <td><p align="center"><b>TEL: </b>
+            <input type="text" name="tel" maxlength="20" size="20" />
+          </b></p></td>
+        </tr>
+        <tr>
+          <td><p align="center"><b>E-MAIL:</b>
+            <input type="text" name="email" maxlength="30" size="30" />
+          </b></p></td>
+        </tr>
+        <tr>
+          <td><b>地址:</b>
+            <input type="text" name="address" maxlength="35" size="35" />
+          </b></td>
+        </tr>
+      </table>
+    <p align="right"><b>個人網址：</b>
+      <input type="text" name="website" maxlength="40" size="40" />
+    </b></p></td>
+  </tr>
+</table>
+
+<input type="submit">
+<input type="reset">
+<input type ="button" onClick="location.href='http://yourIP/資料夾名稱/result.php'" value="看結果">
+
+</form>
+</body>
+</html>
